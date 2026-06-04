@@ -37,20 +37,23 @@ async def cb_handler(client: Bot, query: CallbackQuery):
         except:
             pass
     elif data == "buy_prem":
-        await query.message.edit_text(
-            text=f"👋 @{query.from_user.username}, here are our Prime Membership plans – {PRICE1}/7 days, {PRICE2}/1 month, {PRICE3}/3 months, {PRICE4}/6 months, {PRICE5}/1 year | 💵 UPI ID: <code>{UPI_ID}</code> | 📸 <a href='{UPI_IMAGE_URL}'>Scan QR Code</a> to pay | 🧾 After payment, send your screenshot | 💬 For help or alternative payment methods, contact @Master_xkid",
-            disable_web_page_preview=True,
-            reply_markup = InlineKeyboardMarkup(
-                [   
-                    [
-                        InlineKeyboardButton("ꜱᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ 📸", url=(SCREENSHOT_URL))
-                    ],
-                    [
-                        InlineKeyboardButton("🔒 Close", callback_data = "close")
-                    ]
+    await query.message.edit_text(
+        text=f"👋 @{query.from_user.username}, here are our Prime Membership plans – {PRICE1}/7 days, {PRICE2}/1 month, {PRICE3}/3 months, {PRICE4}/6 months, {PRICE5}/1 year\n\n💵 Click the button below to pay via UPI\n\n🧾 After payment, send your screenshot | 💬 For help, contact @Master_xkid",
+        disable_web_page_preview=True,
+        reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton("💳 Pay Now (UPI)", url="https://indian-hdt-payments.vercel.app/")
+                ],
+                [
+                    InlineKeyboardButton("ꜱᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ 📸", url=(SCREENSHOT_URL))
+                ],
+                [
+                    InlineKeyboardButton("🔒 Close", callback_data="close")
                 ]
-            )
+            ]
         )
+    )
 
 # ────────────────────────────────────────────────────────────────
 
