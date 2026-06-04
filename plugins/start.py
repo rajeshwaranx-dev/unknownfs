@@ -278,8 +278,8 @@ async def start_command(client: Client, message: Message):
             if USE_PAYMENT:
                 btn = [
                     [InlineKeyboardButton("ᴠᴇʀɪꜰʏ 🎀", url=link)],
-                    [InlineKeyboardButton('ʜᴏᴡ ᴛᴏ ᴠᴇʀɪꜰʏ 🥲', url=TUT_VID)],
-                    [InlineKeyboardButton("ɢᴇᴛ ᴘʀᴇᴍɪᴜᴍ", callback_data="buy_prem")]
+                    [InlineKeyboardButton('ʜᴏᴡ ᴛᴏ ᴠᴇʀɪꜰʏ 🤖', url=TUT_VID)],
+                    [InlineKeyboardButton("ɢᴇᴛ ᴘʀᴇᴍɪᴜᴍ 🌟", callback_data="buy_prem")]
                 ]
             else:
                 btn = [
@@ -287,7 +287,7 @@ async def start_command(client: Client, message: Message):
                     [InlineKeyboardButton('ʜᴏᴡ ᴛᴏ ᴠᴇʀɪꜰʏ 🥲', url=TUT_VID)]
                 ]
             await message.reply(
-                "ʏᴏᴜʀ ᴛᴏᴋᴇɴ ʜᴀꜱ ᴇxᴘɪʀᴇᴅ! ❌❌\n\nᴘʟᴇᴀꜱᴇ ᴠᴇʀɪꜰʏ ᴛᴏ ᴄᴏɴᴛɪɴᴜᴇ.",
+                "To avoid spam and to keep this project running, you need to verify the link to continue to use the bot. Verification expires after 12 hours\n\nTips: Tired of verifying every time? Buy premium for 1/day, no verification until premium expires\n\nThis premium amount helps us maintain the bot with 100% uptime.",
                 reply_markup=InlineKeyboardMarkup(btn),
                 protect_content=False,
                 quote=True
