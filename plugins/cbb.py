@@ -38,7 +38,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             pass
     elif data == "buy_prem":
         await query.message.edit_text(
-            text=f"👋 @{query.from_user.username}, Upgrade to Premium for just ₹1/day\n\n💵 Click the button below to pay via UPI\n\n🧾 After payment, send your screenshot | 💬 For help, contact @bharathp0203",
+            text=f"👋 @{query.from_user.username}, Upgrade to Premium for just ₹10/day\n\n💵 Click the button below to pay via UPI\n\n🧾 After payment, send your screenshot | 💬 For help, contact @bharathp0203",
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
