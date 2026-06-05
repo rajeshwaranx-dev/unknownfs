@@ -173,7 +173,7 @@ async def start_command(client: Client, message: Message):
                         [InlineKeyboardButton('ʜᴏᴡ ᴛᴏ ᴠᴇʀɪꜰʏ 🥲', url=TUT_VID)]
                     ]
                 await message.reply(
-                    "To avoid spam and to keep this project running, you need to verify the link to continue to use the bot. Verification expires after 12 hours\n\nTips: Tired of verifying every time? Buy premium for 10₹/day, no verification until premium expires\n\nThis premium amount helps us maintain the bot with 100% uptime.",
+                    "To avoid spam and to keep this project running, you need to verify the link to continue to use the bot. Verification expires after 12 hours\n\nTips: Tired of verifying every time? Buy premium for 10₹/7day, no verification until premium expires\n\nThis premium amount helps us maintain the bot with 100% uptime.",
                     reply_markup=InlineKeyboardMarkup(btn),
                     protect_content=False,
                     quote=True
