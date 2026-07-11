@@ -27,7 +27,7 @@ BOT_STATS_TEXT = os.environ.get("BOTS_STATS_TEXT","<b>BOT UPTIME </b>\n{uptime}"
 USER_REPLY_TEXT = os.environ.get("USER_REPLY_TEXT", "ʜɪ, ɪ ᴀᴍ ᴍᴀᴅᴇ ʙʏ @trinityXmods\n\nᴏɴʟʏ ᴀᴅᴍɪɴꜱ ᴄᴀɴ ᴜꜱᴇ ᴛʜᴇ ʙᴏᴛ ᴅɪʀᴇᴄᴛʟʏ ʙʏ ꜱᴇɴᴅɪɴɢ ꜰɪʟᴇꜱ — ᴏᴛʜᴇʀꜱ ᴄᴀɴɴᴏᴛ ꜱᴇɴᴅ ᴀɴʏᴛʜɪɴɢ ʜᴇʀᴇ.\n\n📦 ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ: https://github.com/Trinity-Mods/File-Store-Bot")
 
 # Paste your bot token here (get it from https://t.me/BotFather)
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8039036380:AAHRs_Ghw5jjADZl80yo3GWeueQmdZ4DYs8") 
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8039036380:AAHVRynkxw95QDMqSHD_nFyO_COipze6apo") 
 # Provide the API ID associated with your Telegram application (from https://my.telegram.org/apps)
 APP_ID = int(os.environ.get("APP_ID", "23361081"))
 # Provide the API Hash linked to your Telegram application (available at https://my.telegram.org/apps)
