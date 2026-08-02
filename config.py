@@ -83,7 +83,7 @@ USE_PAYMENT = True if (True if os.environ.get("USE_PAYMENT", "TRUE") == "TRUE" e
 # Enter your UPI ID for receiving payments.
 UPI_ID = os.environ.get("UPI_ID", "sekarprasanth2621-5@okicici")
 # Enter the direct image URL of your UPI QR code (used for payment).
-UPI_IMAGE_URL = os.environ.get("UPI_IMAGE_URL", "")
+UPI_IMAGE_URL = os.environ.get("UPI_IMAGE_URL", "https://ibb.co/xKngMgHv")
 #No need to change anything here.
 SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/{OWNER_TAG}")
 # Define subscription durations and their respective prices:
