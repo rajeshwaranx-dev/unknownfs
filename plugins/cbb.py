@@ -43,7 +43,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("💳 Pay Now (UPI)", url="https://")
+                        InlineKeyboardButton("💳 Pay Now (UPI)", url="https://movies-zoro.vercel.app/")
                     ],
                     [
                         InlineKeyboardButton("ꜱᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ 📸", url=SCREENSHOT_URL)
