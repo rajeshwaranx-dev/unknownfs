@@ -128,7 +128,7 @@ async def start_command(client: Client, message: Message):
     # ── Plain /start (no payload) → always show welcome ─────────
     if len(message.text) <= 7:
         reply_markup = InlineKeyboardMarkup([
-            [InlineKeyboardButton("💝 Indian_HDT", url='https://t.me/indian_tha')],
+            [InlineKeyboardButton("💝 New Movies", url='https://t.me/tamilmovieszoro')],
             [
                 InlineKeyboardButton("💸 ᴘʀᴇᴍɪᴜᴍ", callback_data="buy_prem"),
                 InlineKeyboardButton("😊 ᴀʙᴏᴜᴛ ᴍᴇ", callback_data="about")
