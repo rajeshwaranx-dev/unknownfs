@@ -39,7 +39,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "8371361567"))
 #port set to default 8080, change according to your will.
 PORT = os.environ.get("PORT", "8082")
 # Enter your MongoDB connection URL. You can use a free cloud database from MongoDB Atlas.
-DB_URL = os.environ.get("DB_URL", "mongodb+srv://bharath:bharathx@cluster0.7zcyu4q.mongodb.net/?appName=Cluster0")
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://cartoongram:cartoongramx@cluster0.p16pvol.mongodb.net/?appName=Cluster0")
 # Enter the name of your MongoDB database.
 DB_NAME = os.environ.get("DB_NAME", "Pradanth2621v")
 
