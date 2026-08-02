@@ -27,21 +27,21 @@ BOT_STATS_TEXT = os.environ.get("BOTS_STATS_TEXT","<b>BOT UPTIME </b>\n{uptime}"
 USER_REPLY_TEXT = os.environ.get("USER_REPLY_TEXT", "ʜɪ, ɪ ᴀᴍ ᴍᴀᴅᴇ ʙʏ @trinityXmods\n\nᴏɴʟʏ ᴀᴅᴍɪɴꜱ ᴄᴀɴ ᴜꜱᴇ ᴛʜᴇ ʙᴏᴛ ᴅɪʀᴇᴄᴛʟʏ ʙʏ ꜱᴇɴᴅɪɴɢ ꜰɪʟᴇꜱ — ᴏᴛʜᴇʀꜱ ᴄᴀɴɴᴏᴛ ꜱᴇɴᴅ ᴀɴʏᴛʜɪɴɢ ʜᴇʀᴇ.\n\n📦 ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ: https://github.com/Trinity-Mods/File-Store-Bot")
 
 # Paste your bot token here (get it from https://t.me/BotFather)
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8039036380:AAHVRynkxw95QDMqSHD_nFyO_COipze6apo") 
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8567643679:AAHl5R6XQh5hbX9dItcUqJTzegYKH1F807o") 
 # Provide the API ID associated with your Telegram application (from https://my.telegram.org/apps)
 APP_ID = int(os.environ.get("APP_ID", "23361081"))
 # Provide the API Hash linked to your Telegram application (available at https://my.telegram.org/apps)
 API_HASH = os.environ.get("API_HASH", "0605c5395b91ead763072251e20c3417")
 # Enter the channel ID of the database channel where all files will be stored.
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002382180624"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003739435228"))
 # Enter your personal Telegram user ID (you can get it by sending '/id' to https://t.me/MissRose_bot).
-OWNER_ID = int(os.environ.get("OWNER_ID", "1664503428"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "8371361567"))
 #port set to default 8080, change according to your will.
 PORT = os.environ.get("PORT", "8082")
 # Enter your MongoDB connection URL. You can use a free cloud database from MongoDB Atlas.
 DB_URL = os.environ.get("DB_URL", "mongodb+srv://bharath:bharathx@cluster0.7zcyu4q.mongodb.net/?appName=Cluster0")
 # Enter the name of your MongoDB database.
-DB_NAME = os.environ.get("DB_NAME", "bharath")
+DB_NAME = os.environ.get("DB_NAME", "Pradanth2621v")
 
 # Set the number of worker threads for the bot. To avoid sleeping issues and improve performance, keep it above 50 (recommended).
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "50"))
@@ -52,10 +52,10 @@ USER_REPLY_TEXT = os.environ.get(
     "⚠️ This is a File Store Bot\n\n"
     "You cannot search movies here.\n\n"
     "🎬 To download movies, go to our channel and check the channel Links.\n\n"
-    "📢 Channel: https://t.me/indian_tha"
+    "📢 Channel: https://t.me/tamilmovieszoro"
 )
 # Enter your Telegram username (without @). A public username is required to use this bot.
-OWNER_TAG = os.environ.get("OWNER_TAG", "bharathp0203")
+OWNER_TAG = os.environ.get("OWNER_TAG", "Pradanth2621v")
 # Time (in seconds) after which messages will be auto-deleted. Use 0 to keep messages permanently.
 TIME = int(os.environ.get("TIME", "0"))
 
@@ -63,7 +63,7 @@ TIME = int(os.environ.get("TIME", "0"))
 # TRUE for yes FALSE if no
 
 # Do you want to enable shortner in this bot? Set to TRUE for yes, False for no.
-USE_SHORTLINK = True if os.environ.get('USE_SHORTLINK', "TRUE") == "TRUE" else False 
+USE_SHORTLINK = True if os.environ.get('USE_SHORTLINK', "False") == "TRUE" else False 
 # Enter the base URL of the shortlink service (without https://).
 SHORTLINK_API_URL = os.environ.get("SHORTLINK_API_URL", "indiaearnx.com")
 # Enter the API key provided by your chosen shortner service.
@@ -79,7 +79,7 @@ TUT_VID = os.environ.get("TUT_VID","https://t.me/links_howtodownload")
 
 # Enable payment system to allow users to remove token limits or purchase premium features.
 # Set to TRUE to activate payments in the bot and earn money.
-USE_PAYMENT = True if (True if os.environ.get("USE_PAYMENT", "TRUE") == "TRUE" else False) and (USE_SHORTLINK) else False
+USE_PAYMENT = True if (True if os.environ.get("USE_PAYMENT", "False") == "TRUE" else False) and (USE_SHORTLINK) else False
 # Enter your UPI ID for receiving payments.
 UPI_ID = os.environ.get("UPI_ID", "bharathp0203@okicici")
 # Enter the direct image URL of your UPI QR code (used for payment).
@@ -118,7 +118,7 @@ DISABLE_CHANNEL_BUTTON = True if os.environ.get("DISABLE_CHANNEL_BUTTON", "False
 # Example: 6011680723 1234567890
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "1664503428 5102717153").split()):
+    for x in (os.environ.get("ADMINS", "5102717153").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
