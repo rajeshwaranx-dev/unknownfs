@@ -65,7 +65,7 @@ TIME = int(os.environ.get("TIME", "0"))
 # Do you want to enable shortner in this bot? Set to TRUE for yes, False for no.
 USE_SHORTLINK = True if os.environ.get('USE_SHORTLINK', "TRUE") == "TRUE" else False 
 # Enter the base URL of the shortlink service (without https://).
-SHORTLINK_API_URL = os.environ.get("SHORTLINK_API_URL", "Linkpays.com")
+SHORTLINK_API_URL = os.environ.get("SHORTLINK_API_URL", "Linkpays.in")
 # Enter the API key provided by your chosen shortner service.
 SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "83a657b11989391dab7ceb99ed32f68a9dbfc9d3")
 # Set a custom expiration time (in seconds) for the shortlink.
