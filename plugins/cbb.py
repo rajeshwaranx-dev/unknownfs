@@ -20,7 +20,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>○ More Bots: <a href='https://t.me/Master_xkid'>Master</a>\n○ Language: <a href='https://www.python.org/'>Python 3</a>\n○ Fueled By: <a href='https://t.me/Askmovies4'>InfoHub Updates</a>\n○ Server: <a href='https://www.ubuntu.com/'>Private VPS</a></b>",
+            text = f"<b>○ More Bots: <a href='https://t.me/Master_xkid'>Master</a>\n○ Language: <a href='https://www.python.org/'>Python 3</a>\n○ Fueled By: <a href='https://t.me/tamilmovieszoro'>InfoHub Updates</a>\n○ Server: <a href='https://www.ubuntu.com/'>Private VPS</a></b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
@@ -38,7 +38,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             pass
     elif data == "buy_prem":
         await query.message.edit_text(
-            text=f"👋 @{query.from_user.username}, Upgrade to Premium for just ₹10/7day\n\n💵 Click the button below to pay via UPI\n\n🧾 After payment, send your screenshot | 💬 For help, contact @bharathp0203",
+            text=f"👋 @{query.from_user.username}, Upgrade to Premium for just ₹10/7day\n\n💵 Click the button below to pay via UPI\n\n🧾 After payment, send your screenshot | 💬 For help, contact @Pradanth2621v",
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
