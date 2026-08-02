@@ -81,7 +81,7 @@ TUT_VID = os.environ.get("TUT_VID","https://t.me/")
 # Set to TRUE to activate payments in the bot and earn money.
 USE_PAYMENT = True if (True if os.environ.get("USE_PAYMENT", "TRUE") == "TRUE" else False) and (USE_SHORTLINK) else False
 # Enter your UPI ID for receiving payments.
-UPI_ID = os.environ.get("UPI_ID", "bharathp0203@okici")
+UPI_ID = os.environ.get("UPI_ID", "sekarprasanth2621-5@okicici")
 # Enter the direct image URL of your UPI QR code (used for payment).
 UPI_IMAGE_URL = os.environ.get("UPI_IMAGE_URL", "")
 #No need to change anything here.
